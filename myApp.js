@@ -4,8 +4,6 @@ const app = express();
 const port = 9000;
 const beers = require("./beers.json");
 
-console.log(beers);
-
 // For index.html
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
@@ -13,7 +11,7 @@ app.get("/", (req, res) => {
 
 // For beers.json
 app.get("/api/beers", (req, res) => {
-    res.sendFile(__dirname + "/beers.json");
+    res.send(beers);
 })
 
 // For css style
