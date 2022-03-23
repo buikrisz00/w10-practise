@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "w10-practise",
+  "description": "",
+  "version": "1.0.0",
+  "main": "myApp.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buikrisz00/w10-practise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buikrisz00/w10-practise/issues"
+  },
+  "homepage": "https://github.com/buikrisz00/w10-practise#readme"
+}

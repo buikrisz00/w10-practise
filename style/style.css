@@ -1,0 +1,20 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 165, 131);
+    height: 100vh;
+    width: 100%;
+}
+
+#root a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 185, 171);
+    border: 1px solid #000;
+    height: 150px;
+    width: 300px;
+    font-size: 50px;
+}
+
