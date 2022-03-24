@@ -24,8 +24,8 @@ app.get("/api/beers", (req, res) => {
     res.send(beers);
 });
 
-
 // For listening on port 9000
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
+
