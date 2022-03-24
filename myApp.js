@@ -1,8 +1,15 @@
-/* import * as data from './beers.json'; */
 const express = require("express");
 const app = express();
 const port = 9000;
-const beers = require("./beers.json");
+const fs = require("fs");
+/* const beers = require("./beers.json"); */
+
+const data = fs.readFileSync("./beers.json", error => {
+    if (error) {
+        console.log(error);
+    }
+})
+const beers = JSON.parse(data);
 
 // For index.html
 app.get("/", (req, res) => {
