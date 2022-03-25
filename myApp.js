@@ -7,6 +7,7 @@ const fs = require("fs");
 // For css style
 app.use("/style", express.static(__dirname + "/style"));
 
+// Get data from beers json
 const data = fs.readFileSync("./beers.json", error => {
     if (error) {
         console.log(error);
